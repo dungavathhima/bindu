@@ -1,26 +1,34 @@
-import java.util.Scanner;
- 
-public class Main {
- 
-public static void main(String[] args) {
-  int num;
-  System.out.println("Enter a number");
-  Scanner s=new Scanner(System.in);
-  num=s.nextInt();
+#illustrate different operators 
+#sets for  illustrate
+A = {0,1,2,3,4,5}
+B = {1,2,3,5,6,7,8,-1}
+#union of these two sets 
+print("union:", A | B)
+#intersection of these two sets
+print("intersection:", A & B)
+#difference of these two sets 
+print("difference:", A - B)
+#symmetrical difference of these two sets
+print("symmetrical difference:", A ^ B)
 
-  boolean flag = false;
-  for (int i = 2; i <= num / 2; ++i) {    
-  if (num % i == 0) {
-    flag = true;
-    break;
-    }
-   }
+
+  
+  
  
-if (!flag){
- System.out.println(num + " is a prime number.");
- }
-else{
- System.out.println(num + " is not a prime number.");
-  }
-}
-}
+
+  
+     
+
+    
+
+    
+   
+ 
+
+ 
+ 
+
+
+  
+
+
